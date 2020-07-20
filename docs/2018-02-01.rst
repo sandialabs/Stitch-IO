@@ -1,0 +1,6 @@
+Quick meeting with John and Jay
+
+* state values are 64-bit integers
+* box coordinates should be in 64-bit floats. Right now, they may be an abstract simulation space value. Ultimately, these will be physical measurements.
+* There is an 'h' parameter that defines the size of a cell. Using 'h' and the coordinates, it is possible to determine how much of a block to slice for a read.
+* Right now, stick with row major ordering (and little-endian). Ultimately, we may want to add column major if the laser changes direction from left-right to front-back. It will be on a per-block basis.

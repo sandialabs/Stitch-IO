@@ -1,0 +1,20 @@
+{
+"model":"weld",
+        "Comment":"Hack pool specifics here. See SPPARKS DEVEL 3 Notes: Feb 26 2018",
+	"parameters": {
+		"case":"20",
+		"pool_width":102.7,
+		"plate_thickness":30,
+		"haz":10,
+		"haz_cushion":2,
+		"weld_speed":9.0,
+		"weld_distance":1500.0,
+		"alpha":1.5,
+		"simulation_temperature":0.25
+	},
+	"output": {
+	        "prefix":"stitch",
+		"spparks_dump_dt":2.0,
+		"spparks_dump_abs_tol":0.02
+	}
+}

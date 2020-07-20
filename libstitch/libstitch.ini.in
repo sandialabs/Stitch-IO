@@ -1,0 +1,8 @@
+[meta]
+Name=@foo@
+Version=0.1.0
+Description=Python interface (module libstitch) to c-based stitch io system.
+
+[default]
+Cflags=-I@prefix@/include
+Libs=
